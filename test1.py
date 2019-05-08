@@ -3676,6 +3676,142 @@ async def on_message(message):
             embed.set_image(url = "http://img.iorph.com/gf/111.png")    
             await client.send_message(channel,embed=embed)
 
+        elif "NEGEV" in message.content or "네게브" in  message.content or "네격부" in  message.content or "네게부" in message.content:           
+            embed = discord.Embed(color = 0x1e90ff) 
+            embed.add_field (
+                name = "이름",
+                value = "네게브(성우:스와 아야카,일러스트:十月十日奏)",
+            )
+            embed.add_field (
+                name = "종류",
+                value = "MG",
+                inline = True
+            )
+            embed.add_field (
+                name = "희귀도",
+                value = "5성",
+                inline = False
+            )
+            embed.add_field (
+                 name = "제조시간",
+                value = "06:35",
+                inline = True
+            )
+            embed.add_field (
+                name = "진형버프",
+                value = "□ □ ■\n● □ ■\n□ □ ■\n버프칸의 산탄총에게 장갑 20%",
+                inline = False
+            )
+            embed.add_field (
+                name = "스킬",
+                value = "**혈류가속**\n재장전시 25초간 화력 증가(중첩 가능)",
+                inline = True
+            )
+            embed.set_image(url = "http://img.iorph.com/gf/112.png")    
+            await client.send_message(channel,embed=embed)
+
+        elif "세르듀코프" in message.content:           
+            embed = discord.Embed(color = 0x1e90ff) 
+            embed.add_field (
+                name = "이름",
+                value = "세르듀코프(성우:타나카 미나미,일러스트:能登ツグミ)",
+            )
+            embed.add_field (
+                name = "종류",
+                value = "HG",
+                inline = True
+            )
+            embed.add_field (
+                name = "희귀도",
+                value = "3성",
+                inline = False
+            )
+            embed.add_field (
+                 name = "제조시간",
+                value = "제조 불가",
+                inline = True
+            )
+            embed.add_field (
+                name = "진형버프",
+                value = "□ ■ □\n■ ● □\n□ ■ □\n버프칸의 모든총기에게 화력 24%, 명중 40%",
+                inline = False
+            )
+            embed.add_field (
+                name = "스킬",
+                value = "**일제사격**\n지속시간 동안 아군 전원 화력 증가",
+                inline = True
+            )
+            embed.set_image(url = "http://img.iorph.com/gf/113.png")    
+            await client.send_message(channel,embed=embed)
+
+        elif "웰로드 Mkll" in message.content or "웰로드"in message.content or "장군님" in message.content or "박하나" in message.content:           
+            embed = discord.Embed(color = 0x1e90ff) 
+            embed.add_field (
+                name = "이름",
+                value = "웰로드 Mkll(성우:이마이 아사미,일러스트:エロ牛)",
+            )
+            embed.add_field (
+                name = "종류",
+                value = "HG",
+                inline = True
+            )
+            embed.add_field (
+                name = "희귀도",
+                value = "5성",
+                inline = False
+            )
+            embed.add_field (
+                 name = "제조시간",
+                value = "01:00",
+                inline = True
+            )
+            embed.add_field (
+                name = "진형버프",
+                value = "■ ■ □\n■ ● □\n■ ■ □\n버프칸의 모든총기에게 화력 20%, 사속 16%",
+                inline = False
+            )
+            embed.add_field (
+                name = "스킬",
+                value = "**시야봉쇄**\n지속시간 동안 적 전체 명중 감소",
+                inline = True
+            )
+            embed.set_image(url = "http://img.iorph.com/gf/114.png")    
+            await client.send_message(channel,embed=embed)
+
+        elif "수오미" in message.content or "첫째 돼지"in message.content:           
+            embed = discord.Embed(color = 0x1e90ff) 
+            embed.add_field (
+                name = "이름",
+                value = "수오미(성우:토요사키 아키,일러스트:Anmi)",
+            )
+            embed.add_field (
+                name = "종류",
+                value = "SMG",
+                inline = True
+            )
+            embed.add_field (
+                name = "희귀도",
+                value = "5성",
+                inline = False
+            )
+            embed.add_field (
+                 name = "제조시간",
+                value = "02:25",
+                inline = True
+            )
+            embed.add_field (
+                name = "진형버프",
+                value = "■ □ □\n□ ● □\n■ □ □\n버프칸의 모든총기에게 사속 15%, 명중 30%",
+                inline = False
+            )
+            embed.add_field (
+                name = "스킬",
+                value = "**회피기동**\n지속시간 동안 자신의 회피 증가",
+                inline = True
+            )
+            embed.set_image(url = "http://img.iorph.com/gf/115.png")    
+            await client.send_message(channel,embed=embed)
+
         
 
 
